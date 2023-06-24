@@ -1,0 +1,16 @@
+.button {
+  display: flex;
+  width: 70px;
+  height: 70px;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  border-radius: 15px;
+}
+
+.button img {
+  width: 70%;
+  margin-bottom: 10px;
+}

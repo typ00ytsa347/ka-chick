@@ -1,0 +1,20 @@
+This document looks at any data garbage points which would be counted as actual images.
+
+Rule for counting as image: OCSVM >= -50,000
+
+Fails:
+OCSVM  => SVM
+-1453  => 1.0
+-19934 => 7.0
+-8210  => 7.0
+-37313 => 7.0
+-13745 => 7.0
+-13804 => 7.0
+-35613 => 7.0
+-25180 => 7.0
+-19386 => 7.0
+-48655 => 7.0
+-3605  => 7.0
+
+Thus, do not add class 7.0 to game, and filter out all images with OCSVM < -50,000. Gives 100% accuracy with well taken
+marker images, and allows none of the test garbage images through.

@@ -1,0 +1,40 @@
+@import "../colours.css";
+
+.button {
+  /* width: 12rem; */
+  margin: 10px;
+  padding: 12px 20px;
+
+  border: 2px solid white;
+  border-radius: 100px;
+
+  background-color: #ccc;
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+
+  font-size: 1.2rem;
+  font-family: 'Nunito';
+  color: var(--background-primary)
+}
+.themeWidth { 
+  padding: 12px;
+  width: 12rem;
+}
+
+.blue {
+  background-color: var(--button-blue);
+}
+.green {
+  background-color: var(--button-green);
+}
+.yellow {
+  background-color: var(--button-yellow);
+}
+.pink {
+  background-color: var(--button-pink);
+}
+.purple {
+  background-color: var(--button-purple);
+}
+.red {
+  background-color: var(--button-red);
+}

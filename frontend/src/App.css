@@ -1,0 +1,13 @@
+#root {
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1, h2 {
+  font-family: 'Macondo Swash Caps';
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+}

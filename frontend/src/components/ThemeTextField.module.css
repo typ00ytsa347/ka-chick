@@ -1,0 +1,43 @@
+.container {
+  width: 18rem;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.container label {
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 10px;
+
+  font-size: 1.2rem;
+}
+
+.container input {
+  padding: 10px 20px;
+  width: -webkit-fill-available;
+
+  border: 2px white solid;
+  border-radius: 100px;
+
+  background-color: #aaa;
+  
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.labeled {
+  border-top-left-radius: 0 !important; /* Override */
+}
+
+.container input::placeholder {
+  color: #555;
+}
+
+.container input:disabled {
+  background-color: #555;
+  border-color: #aaa;
+  color: #aaa;
+}

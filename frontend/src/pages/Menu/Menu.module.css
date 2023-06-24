@@ -1,0 +1,38 @@
+@import "../../colours.css";
+
+.menu {
+    padding: 16px;
+    height: 80vh;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px;
+
+    text-align: center;
+}
+
+.menu > button {
+    margin: 20px;
+}
+
+
+
+.titleContainer {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+.titleContainer img {
+    width: 5rem;
+    height: 5rem;
+
+    position: relative;
+    left: 54px;
+    top: 25px;
+}
+
+.titleContainer h1 {
+    margin: 0;
+
+    font-size: 4rem;
+    font-family: 'Macondo Swash Caps';
+}
