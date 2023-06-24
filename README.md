@@ -1,4 +1,4 @@
-# Jubilant Jackrabbits (SOFTENG 750 Project)
+# Ka-Chick
 
 Members
 - Aarni Kupari
