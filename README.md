@@ -168,6 +168,8 @@ access the frontend.
 The application will begin at the main page, giving the player an option to join a lobby, create a lobby
 or go to the map creator.
 
+![image](https://github.com/typ00ytsa347/ka-chick/assets/79774614/d57f1a5b-0f26-45b1-964a-ee15dcecb911)
+
 ### Map Creator
 The user can create their own maps by upload images and objectives based on the location they wish to set up the game. After creating objectives and specifying a map name, the map will be saved and an ID will be generated referencing this map. This ID can then be used to create a lobby for other players to join.
 
@@ -180,6 +182,8 @@ In this screen, the player can create a new lobby by providing a map ID, a room 
 All of this information is sent to the server, and if it is valid, a new lobby is created and the user
 is sent to a screen allowing them to start the lobby. During this time, any users can joib the lobby
 using the lobby ID.
+
+![image](https://github.com/typ00ytsa347/ka-chick/assets/79774614/b5a1eb0d-ebe3-4ff6-8e7a-270e23a69d7b)
 
 ### Join Lobby
 This is the screen where other players can join a lobby. If they give a valid unique username and the code
@@ -207,6 +211,8 @@ Given below is a link to a Google Drive holding sample marker images. There are 
 suboptimal images: one which is zoomed out, and one which is zoomed in.
 
 https://drive.google.com/drive/folders/1BfNHujU2mZ-zfTZUba0h7nGeQ4-da4v_?usp=sharing
+
+![image](https://github.com/typ00ytsa347/ka-chick/assets/79774614/057c34d1-2f1f-4b03-869f-dcb69591dc4a)
 
 ## Common Install, Setup and Running Issues
 
